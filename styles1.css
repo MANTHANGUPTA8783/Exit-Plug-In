@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    position: relative;  /* We have to set one of parent element to relative
+    if we donot set it then it will take 1 */ 
+    margin: 0;
+}
+.under{
+    text-decoration: underline;
+}
+h1{/* doing this text align centre doesnot workout anymore.*/
+/* In that case use can use margin. */
+margin: 0 auto 0 auto; 
+/* if we here we write     0 auto     then it means that top-bottom margin is 0 and left-right margin is auto.(centre)*/
+font-family: 'Dancing Script', cursive;}
+.c1{
+    position: absolute;
+    right: 170px;
+    top: 70px;
+
+}
+.c2{
+    position: absolute;
+    left: 200px;
+    top:340px;
+
+}
+.top_container{
+    background-color: #EFFFFD;
+    position: relative;
+    padding-top: 120px; /* padding top is given because we want to shift all elements that numeber of pixels.  */
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+}
+hr{
+    color: lightgrey;
+    border-style: dotted ;
+    width: 30%;
+}
+
+
+.sign{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.name{
+    color: #537FE7;
+}
+.size{
+    font-size: 3.12rem; /* still It is recommended to use rem so that 
+    there are not much problem in sizing */
+
+    
+    /* line-height: 5; */
+
+}
+
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #537FE7;
+    padding: 9px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+  .bottom-container{
+    background-color:#EFFFFD;
+    padding-top: 50px;
+    /* padding-bottom: 1px; */
+  }
+  .link{
+    margin: 40px 50px;
+    color: #0099ff;
+    text-decoration: none;
+  }
+  .link:hover{
+    font-size: 100%;
+    color: #04fcdf;
+  }
+  
